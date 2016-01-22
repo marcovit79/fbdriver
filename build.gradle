@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.seleniumhq.selenium:selenium-java:2.49.0'
+    compile 'org.seleniumhq.selenium:selenium-firefox-driver:2.49.0'
+    
+    compile 'org.apache.hbase:hbase-client:0.98.8-hadoop2'
+
+}
